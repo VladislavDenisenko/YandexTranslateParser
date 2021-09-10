@@ -23,7 +23,7 @@ try:
         options=options
     )
     print("Перехожу на сайт Яндекс.Переводчика")
-    driver.get("https://translate.yandex.ru/")
+    driver.get("https://translate.yandex.ru/?lang=en-ru")
     print("Успешно")
     time.sleep(2)
     counter = 1
